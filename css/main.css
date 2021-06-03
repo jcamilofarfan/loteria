@@ -1,0 +1,22 @@
+.tarjeton{
+
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: teal;
+}
+.listado{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+}
+.listado spam{
+    display: flex;
+    /* background-color: tomato; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
